@@ -60,12 +60,6 @@ h2{
     margin-bottom: 30px;
 }
 
-/* p{
-    color: var(--paragraph);
-    margin-top: 11px;
-    margin-bottom: 33px;
-} */
-
 ul{
     list-style-type: none;
     padding: 0px;
@@ -84,11 +78,13 @@ li a{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 3px;
+    transition: 0.7s;
 }
 
 /*ao passar o mouse*/
 li a:hover{
     background-color: var(--subtitle_cursor);
+    transform: scale(1.1);
 }
 
 /*ao clicar*/
@@ -96,8 +92,6 @@ li a:active{
     background-color: var(--clicks);
 }
 
-/*formatando o id copyright*/
-#copyright{
-    color: var(--primary);
-    font-size: 16px;
+.destaque{
+    font-weight: 600;
 }
